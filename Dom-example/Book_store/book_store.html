@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Store</title>
+
+    <style>
+        #bookstore {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .book {
+            border: 2px solid green;
+            width: 200px;
+            height: 300px;
+            padding: 10px;
+            text-align: center;
+            background-color: aqua;
+            border-radius: 10px;
+        }
+
+        .book img {
+            width: 180px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .book h2 {
+            margin: 10px 0;
+        }
+
+        .book button {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <center>
+        <h1>BOOK STORE</h1>
+    </center>
+
+    <!-- Parent container for all 3 books -->
+    <div id="bookstore"></div>
+
+    <script src="./book_store.js"></script>
+
+</body>
+
+</html>
